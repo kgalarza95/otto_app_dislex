@@ -1,4 +1,4 @@
-package ec.ug.ottonavdrawer.ui.gallery;
+package ec.ug.ottonavdrawer.ui.usuario;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,7 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 import ec.ug.ottonavdrawer.R;
 import ec.ug.ottonavdrawer.databinding.FragmentUsuariosBinding;
 
-public class GalleryFragment extends Fragment {
+public class UsuarioFragment extends Fragment {
 
     private FragmentUsuariosBinding binding;
 
@@ -23,13 +23,13 @@ public class GalleryFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        UsuarioViewModel usuarioViewModel =
+                new ViewModelProvider(this).get(UsuarioViewModel.class);
 
         binding = FragmentUsuariosBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textView3;
+        //final TextView textView = binding.textView3;
         spTiposUsuarios = binding.spUsuarios;
 
         //Adaptador con layout por defecto
@@ -40,7 +40,7 @@ public class GalleryFragment extends Fragment {
 
         spTiposUsuarios.setAdapter(adaptador);
 
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+       // usuarioViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
