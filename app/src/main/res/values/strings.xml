@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Otto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nombre de la Escuela</string>
+    <string name="nav_header_subtitle">direccion de la escuela</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+
+    <string name="menu_home">Principal</string>
+    <string name="menu_user">Usuarios</string>
+    <string name="menu_history">Historial</string>
+
+
+    <string name="btn_estudiante">Soy Profesor</string>
+    <string name="btn_profesor">Soy Estudiante</string>
+
+
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="txt_olvido">Olvidó su contraseña?</string>
+
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <string name="lbl_title">Oto Game</string>
+    <string name="lbl_mensaje_principal">Elige tu perfil para ingresar al sistema</string>
+
+    <string name="item_nosotros">Acerca de nosotros</string>
+    <string name="item_usuarios">Administrar Usuarios</string>
+    <string name="item_noticias">Noticias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btn_guardar">Guardar</string>
+    <string name="chk_femenino">Femenino</string>
+    <string name="chk_masculino">Masculino</string>
+
+    <string-array name="strs_tip_users">
+        <item>Administrador</item>
+        <item>Profesor</item>
+        <item>Alumno</item>
+    </string-array>
+</resources>

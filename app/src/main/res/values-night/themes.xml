@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="Theme.OttoNavDrawer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+
+    <style name="Theme.OttoNavDrawer" parent="Theme.AppCompat.NoActionBar">
+<!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/purple_200</item>-->
+<!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--        <item name="colorOnPrimary">@color/black</item>-->
+<!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/teal_200</item>-->
+<!--        <item name="colorSecondaryVariant">@color/teal_200</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+
+        <item name="android:fontFamily">@font/bellota_light</item>
+        <!--    <style name="Theme.Oto" parent="Theme.MaterialComponents.NoActionBar">-->
+        <!--    <style name="Theme.Oto" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primaryLightColor</item>
+        <item name="colorSecondaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- <style name="Theme.Oto" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+         &lt;!&ndash; Primary brand color. &ndash;&gt;
+         <item name="colorPrimary">@color/purple_200</item>
+         <item name="colorPrimaryVariant">@color/purple_700</item>
+         <item name="colorOnPrimary">@color/black</item>
+         &lt;!&ndash; Secondary brand color. &ndash;&gt;
+         <item name="colorSecondary">@color/teal_200</item>
+         <item name="colorSecondaryVariant">@color/teal_200</item>
+         <item name="colorOnSecondary">@color/black</item>
+         &lt;!&ndash; Status bar color. &ndash;&gt;
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+     </style>-->
+
+
+    <style name="Theme.Oto2" parent="Theme.OttoNavDrawer">
+        <item name="colorAccent">@color/black</item>
+        <!--        <item name="boxStrokeColor">@color/purple_200</item>-->
+        <!--        <item name="hintTextColor">@color/black</item>-->
+
+        <item name="android:textColorHint">@color/colorNegroTransparente</item> <!-- color del hint-->
+        <item name="colorControlNormal">@color/black</item><!-- color cuando esta inactivo-->
+        <item name="colorControlActivated">@color/primaryDarkColor</item><!-- color cuando está activo o colorAccent-->
+        <item name="android:textColorPrimary">@color/primaryDarkColor</item>
+        <item name="startIconTint">@color/primaryDarkColor</item>
+        <!--        <item name="android:textColorPrimary">#DD00ED</item>-->
+        <!--item name="errorTextAppearance">#7EC50C</item-->
+        <!--
+        textColorHint: Color en label flotante
+        colorControlNormal: color de la linea de editext
+        colorControlActive: color del label flotante y la linea cuando esta activo
+        textColorPrimaty: el color del texto que se introduce-->
+
+
+
+
+
+        <!--estilo de inpu text normla sin material design
+        <style name="CampoTexto1" parent="Theme.AppCompat.Light">
+            <item name="colorControlNormal">#FF0000</item>
+            <item name="colorControlActivated">#39008e</item>
+            <item name="android:textColorHighlight">#E1BEE7</item>
+            <item name="android:gravity">center</item>
+        </style>-->
+    </style>
+
+    <style name="Theme.OtoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/black</item>
+
+        <item name="android:textColorHint">@color/colorNegroTransparente</item> <!-- color del hint-->
+        <item name="colorControlNormal">@color/black</item><!-- color cuando esta inactivo-->
+        <item name="colorControlActivated">@color/primaryDarkColor</item><!-- color cuando está activo o colorAccent-->
+        <item name="android:textColorPrimary">@color/primaryDarkColor</item>
+        <item name="startIconTint">@color/primaryDarkColor</item>
+
+    </style>
+
+    <style name="Theme.Oto.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Oto.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
