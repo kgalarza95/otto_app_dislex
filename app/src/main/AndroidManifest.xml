@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,43 +11,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OttoNavDrawer"
-        tools:targetApi="31" >
-
+        tools:targetApi="31">
+        <activity
+            android:name=".controller.estudiante.MenuEstudiantePrincipal"
+            android:exported="false"
+            android:label="@string/title_activity_menu_estudiante_principal"
+            android:theme="@style/Theme.OttoNavDrawer.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".controller.estudiante.PrincipalEstud"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".controller.estudiante.LoginEstudiante"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".controller.profesor.LoginProfesor"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".controller.MenuProfEstud"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".controller.Splash"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -58,12 +62,11 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".controller.profesor.MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.OttoNavDrawer.NoActionBar" >
+            android:theme="@style/Theme.OttoNavDrawer.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

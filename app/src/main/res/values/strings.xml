@@ -36,9 +36,13 @@
     <string name="chk_femenino">Femenino</string>
     <string name="chk_masculino">Masculino</string>
 
+    <string name="txt_nombre_titulo">Easy Learning</string>
     <string-array name="strs_tip_users">
         <item>Administrador</item>
         <item>Profesor</item>
         <item>Alumno</item>
     </string-array>
+    <string name="title_activity_menu_estudiante_principal">MenuEstudiantePrincipal</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

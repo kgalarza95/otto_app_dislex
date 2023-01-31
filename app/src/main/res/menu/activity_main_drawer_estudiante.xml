@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navcomunidad"
+            android:icon="@drawable/btn_1"
+            android:title="Comunidad" />
+        <item
+            android:id="@+id/nav_eval"
+            android:icon="@drawable/btn_2"
+            android:title="Evaluacion" />
+        <item
+            android:id="@+id/nav_aprend"
+            android:icon="@drawable/btn_3"
+            android:title="Aprendizaje" />
+        <item
+            android:id="@+id/nav_notifica"
+            android:icon="@drawable/btn_3"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/btn_3"
+            android:title="Perfil" />
+    </group>
+</menu>
