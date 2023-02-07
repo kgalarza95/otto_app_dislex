@@ -4,10 +4,24 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/navcomunidad"
             android:icon="@drawable/btn_1"
-            android:title="Comunidad" />
+            android:title="Comunidad" >
+            <menu>
+                <item
+                    android:icon="@drawable/btn_1"
+                    android:title="Comunidad" >
+
+                </item>
+                <item
+                    android:icon="@drawable/btn_1"
+                    android:title="Comunidad" >
+
+                </item>
+            </menu>
+        </item>
         <item
             android:id="@+id/nav_eval"
             android:icon="@drawable/btn_2"

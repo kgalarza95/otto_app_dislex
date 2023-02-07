@@ -3,23 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation2"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_eval">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="ec.ug.ottonavdrawer.ui.home.HomeFragment"
+        android:id="@+id/nav_eval"
+        android:name="ec.ug.ottonavdrawer.ui.eval.Eval"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_eval" />
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="ec.ug.ottonavdrawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="ec.ug.ottonavdrawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>
